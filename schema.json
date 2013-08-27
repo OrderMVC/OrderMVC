@@ -1,0 +1,29 @@
+{
+	"orders": {
+		"shipped_at": "datetime",
+		"first_name": "string",
+		"last_name": "string",
+		"address_id": "integer"
+	},
+	"address": {
+		"street": "string",
+		"city": "string",
+		"state": "string",
+		"zip": "string",
+	},
+	"items_orders": {
+		"order_id": "integer",
+		"item_id": "integer",
+		"item_type": "string"
+	},
+	"digital_items": {
+		"name": "string",
+		"size": "integer", // In Mb
+		"format": "string"
+	},
+	"physical_items": {
+		"name": "string",
+		"weight": "integer", // In lbs
+		"stock": "integer"
+	}
+}
