@@ -11,7 +11,7 @@
 		"state": "string",
 		"zip": "string",
 	},
-	"items_orders": {
+	"item_order": {
 		"order_id": "integer",
 		"item_id": "integer",
 		"item_type": "string"
