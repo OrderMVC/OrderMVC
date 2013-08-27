@@ -19,11 +19,13 @@
 	"digital_items": {
 		"name": "string",
 		"size": "integer", // In Mb
-		"format": "string"
+		"format": "string",
+		"price": "decimal"
 	},
 	"physical_items": {
 		"name": "string",
 		"weight": "integer", // In lbs
-		"stock": "integer"
+		"stock": "integer",
+		"price": "decimal"
 	}
 }
