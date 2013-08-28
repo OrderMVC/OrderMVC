@@ -15,6 +15,7 @@
 		"order_id": "integer",
 		"item_id": "integer",
 		"item_type": "string"
+		"amount": "integer"
 	},
 	"digital_items": {
 		"name": "string",
